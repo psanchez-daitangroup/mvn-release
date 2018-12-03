@@ -156,7 +156,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
 				<configuration>
-					<tagNameFormat>agent-${parsedVersion.majorVersion}</tagNameFormat>
+					<tagNameFormat>agent-${project.version}</tagNameFormat>
 				</configuration>
 			</plugin>
 		</plugins>
