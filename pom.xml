@@ -4,7 +4,7 @@
 
 	<groupId>com.symphony</groupId>
 	<artifactId>mvn-release</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>mvn-release</name>
@@ -14,7 +14,7 @@
         <connection>scm:git:git@github.com:psanchez-daitangroup/mvn-release.git</connection>
         <developerConnection>scm:git:git@github.com:psanchez-daitangroup/mvn-release.git</developerConnection>
         <url>https://github.com/psanchez-daitangroup/mvn-release</url>
-        <tag>HEAD</tag>
+        <tag>agent-0.0.1-SNAPSHOT</tag>
     </scm>
 
 	<parent>
