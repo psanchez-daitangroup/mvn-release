@@ -4,16 +4,16 @@
 
 	<groupId>com.symphony</groupId>
 	<artifactId>mvn-release</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>mvn-release</name>
 	<description>Demo project for Spring Boot</description>
 
 	<scm>
-        <connection>scm:git:git@github.com:SymphonyOSF/symphony-agent.git</connection>
-        <developerConnection>scm:git:git@github.com:SymphonyOSF/symphony-agent.git</developerConnection>
-        <url>https://github.com/SymphonyOSF/symphony-agent</url>
+        <connection>scm:git:git@github.com:psanchez-daitangroup/mvn-release.git</connection>
+        <developerConnection>scm:git:git@github.com:psanchez-daitangroup/mvn-release.git</developerConnection>
+        <url>https://github.com/psanchez-daitangroup/mvn-release</url>
         <tag>HEAD</tag>
     </scm>
 
