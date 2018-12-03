@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.symphony</groupId>
 	<artifactId>mvn-release</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>mvn-release</name>
@@ -15,14 +14,14 @@
         <connection>scm:git:git@github.com:SymphonyOSF/symphony-agent.git</connection>
         <developerConnection>scm:git:git@github.com:SymphonyOSF/symphony-agent.git</developerConnection>
         <url>https://github.com/SymphonyOSF/symphony-agent</url>
-        <tag>HEAD</tag>
+        <tag>0.0.2</tag>
     </scm>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.1.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -83,7 +82,7 @@
 			<url>https://infra.symphony.com/artifactory/plugins-release</url>
 		</pluginRepository>
 		<pluginRepository>
-			<snapshots/>
+			<snapshots />
 			<id>snapshots</id>
 			<name>plugins-snapshot</name>
 			<url>https://infra.symphony.com/artifactory/plugins-snapshot</url>
