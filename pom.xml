@@ -88,7 +88,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
 				<configuration>
-					<tagNameFormat>agent-${build.number}</tagNameFormat>
+					<tagNameFormat>agent-${parsedVersion.majorVersion}</tagNameFormat>
 				</configuration>
 			</plugin>
 		</plugins>
