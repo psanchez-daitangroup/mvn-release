@@ -4,7 +4,7 @@
 
 	<groupId>com.symphony</groupId>
 	<artifactId>mvn-release</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>mvn-release</name>
@@ -62,7 +62,17 @@
 	</build>
 
 
-
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<url>http://localhost:8081/artifactory/libs-release</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>http://localhost:8081/artifactory/libs-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+<!--
 	<repositories>
 		<repository>
 			<id>symphony</id>
@@ -79,7 +89,7 @@
 				<enabled>false</enabled>
 			</releases>
 		</repository>
-	</repositories>
+	</repositories>-->
 <!--
 	<pluginRepositories>
 		<pluginRepository>
